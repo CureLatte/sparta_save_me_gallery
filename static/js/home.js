@@ -90,11 +90,12 @@ function delete_masterpiece_final(id){
             console.log(response['msg'])
             alert(response['msg'])
         }
+
     })
 
     close_delete_option(id)
     password_tag.value = ''
-    window.location.reload();
+    window.location.reload(true);
 }
 
 function info_option(id){
